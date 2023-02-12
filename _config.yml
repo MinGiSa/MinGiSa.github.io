@@ -19,7 +19,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: MinGiSa                          # the main title
+title: MinGi Sa                          # the main title
 
 tagline: Dealing with misc. python / c# code   # it will display as the sub-title
 
@@ -30,7 +30,7 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://MinGiSa.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: MinGiSa             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -38,8 +38,8 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com             # change to your email address
+  name: MinGi Sa
+  email: superb@duck.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
@@ -78,12 +78,12 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://chirpy-img.netlify.app'
+img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: '/assets/img/profile.jpeg'
 
-# boolean type, the global switch for ToC in posts.
+# boolean type, the global switch for fToC in posts.
 toc: true
 
 comments:
