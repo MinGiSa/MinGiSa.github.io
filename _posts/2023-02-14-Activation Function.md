@@ -46,7 +46,7 @@ tags : [deeplearning, activation function]
 <br>
 - XOR GATE 진리값 그래프 하나의 선으로 구분 불가능, 이를 해결하기 위하여 MLP 사용
 <br>
-- 입력 값의 합이 Threshold를 넘기면 0, 넘지 못하면 0 을 출력
+- 입력 값의 합이 Threshold를 넘기면 1, 넘지 못하면 0 을 출력
 <br>
 - x < 0 = 0 / - x >= 0 = 1
 <br>
@@ -60,6 +60,7 @@ tags : [deeplearning, activation function]
 
 ## 2. Sigmoid Function / 시그모이드 함수
 ---
+<br>
 - Step Function 보완
 <br>
 ->전구간 미분 가능 / Gradient 값 : 0 ~ 0.25
@@ -114,11 +115,11 @@ tags : [deeplearning, activation function]
 <br>
 -> Gradient 값이 1이기에 Vanishing Gradient 문제 해결
 <br>
-   -> 지그재그 현상은 발생함에 따라 
+   -> 지그재그 현상은 발생
 <br>
 -> exp 연산이 없어 상대적으로 계산 속도 우수(미분값 0 또는 1)
 <br>
-- Dying ReLu 문제 발생으로 학습 성능 저하
+- Dying ReLu 현상 발생으로 학습 성능 저하
 <br>
 -> 중심값이 0이 아니며 x가 음수면 출력값이 0이기에 일부 Weight 갱신 불가
 <br>
